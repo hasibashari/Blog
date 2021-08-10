@@ -4,6 +4,15 @@ html,body {
     overflow-x: hidden;
 }
 
+/* Global Class */
+
+a {
+    text-decoration: none;
+}
+
+/* End Global Class */
+
+
 /* Navbar */
 .nav {
     background: white;
@@ -16,7 +25,6 @@ html,body {
 .nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
-    text-decoration: none;
 }
 
 /* End Navbar */
