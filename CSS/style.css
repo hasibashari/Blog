@@ -16,6 +16,10 @@ a {
     flex-wrap: wrap;
 }
 
+ul {
+    list-style: none;
+}
+
 /* End Global Class */
 
 
@@ -30,6 +34,17 @@ a {
 
 .nav-menu {
     justify-content: space-between;
+}
+
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
 }
 
 .nav .nav-brand a {
