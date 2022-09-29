@@ -1,8 +1,33 @@
-html,body {
+@import url('../CSS/fonts.css');
+
+
+html,
+body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
+
+
+:root {
+
+
+
+
+    /* theme font-family */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin: 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic: 'Livvic', cursive;
+
+
+}
+
+
+
+
+
 
 /* Global Class */
 
@@ -50,6 +75,8 @@ ul {
 .nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
+    display: block;
+    font-family: var(--Abel);
 }
 
 /* End Navbar */
