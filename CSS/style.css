@@ -15,7 +15,8 @@ body {
     --text-gray: #3f4954;
     --text-ligth: #686666da;
     --bg-color: #0f0f0f;
-    --white: #ffffff --midnight:#104f55;
+    --white: #ffffff;
+    --midnight: #104f55;
 
     /* Gradient color */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -29,9 +30,6 @@ body {
 
 
 }
-
-
-
 
 
 
@@ -77,9 +75,15 @@ ul {
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
-    font-family: var(--Abel);
     font-size: 1.1rem;
 }
+
+.nav .nav-items .nav-link:hover {
+    background-color: var(--midnight);
+}
+
+
+
 
 .nav .nav-brand a {
     font-size: 1.6rem;
@@ -88,5 +92,11 @@ ul {
     font-family: var(--Abel);
     font-size: 1.6rem;
 }
+
+
+.nav .social {
+    padding: 1.4rem 0;
+}
+
 
 /* End Navbar */
