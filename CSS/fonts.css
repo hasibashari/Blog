@@ -14,20 +14,20 @@
 
 /* font-family: Josefin */
 @font-face {
-  font-family: Anton;
+  font-family: Josefin;
   src: url('../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf');
 }
 
 
 /* font-family: Lexend */
 @font-face {
-  font-family: Anton;
+  font-family: Lexend;
   src: url('../fonts/Lexend_Deca/static/LexendDeca-Regular.ttf');
 }
 
 
 /* font-family: Livic */
 @font-face {
-  font-family: Anton;
+  font-family: Livic;
   src: url('../fonts/Livvic/Livvic-Regular.ttf');
 }
