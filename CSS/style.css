@@ -60,6 +60,7 @@ ul {
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav-menu {
@@ -86,6 +87,9 @@ ul {
     color: var(--text-gray);
 }
 
+.collapse {
+    height: 30rem;
+}
 
 .nav .nav-items {
     display: flex;
