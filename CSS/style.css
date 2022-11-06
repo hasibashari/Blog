@@ -77,6 +77,9 @@ span {
     font-family: var(--Abel);
 }
 
+.container {
+    margin: 0 5vw;
+}
 
 
 /* End Global Class */
@@ -202,6 +205,7 @@ main .blog {
     background-position: right;
     height: 100vh;
     width: 100%;
+    background-size: 65%;
 }
 
 main .blog-post {
@@ -213,7 +217,7 @@ main .blog-post .blog-content {
     flex-direction: column;
     text-align: center;
     width: 80%;
-    margin: 3rem 2rem;
+    margin: 3rem 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
