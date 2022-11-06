@@ -10,7 +10,7 @@ $(document).ready(function () {
   /* owl-crousel for blog */
   $(".owl-carousel").owlCarousel({
     loop: true,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 3000,
     dost: false,
     nav: true,
